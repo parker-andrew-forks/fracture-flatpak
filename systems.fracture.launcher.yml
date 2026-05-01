@@ -11,7 +11,6 @@ finish-args:
   - --socket=fallback-x11
   - --device=dri
   - --filesystem=xdg-run/pipewire-0
-  - --talk-name=org.freedesktop.Notifications
   # GNOME users can optionally enable extension support allowing
   # them to easily launch on the active window.
   - --talk-name=org.gnome.Shell
@@ -59,7 +58,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/parker-bryce-andrew/fracture.git
-        commit: 030502f6332f9a707102e5fc5350f42603491053
+        commit: 2d71b712810cf80e003056380cafd7c7750e236e
       - cargo-fracture-sources.json
 
   - name: launcher-build
@@ -76,7 +75,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/parker-bryce-andrew/fracture-launcher.git
-        commit: d40424ff57f2a99e3171fe8e0ce7801e13df1660
+        commit: 5fd0c3f7882f0af341e0d08106b1e1df5d0a2a9e
       - cargo-launcher-sources.json
 
   - name: dconf
