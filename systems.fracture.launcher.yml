@@ -75,7 +75,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/parker-bryce-andrew/fracture-launcher.git
-        commit: 5fd0c3f7882f0af341e0d08106b1e1df5d0a2a9e
+        commit: 1a86d4f45ac81b89cb3098dbd5460ed7f7efa49e
       - cargo-launcher-sources.json
 
   - name: dconf
