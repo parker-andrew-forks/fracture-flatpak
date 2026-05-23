@@ -57,8 +57,8 @@ modules:
         /app/share/icons/hicolor/512x512/apps/$FLATPAK_ID.png
     sources:
       - type: git
-        url: https://github.com/parker-bryce-andrew/fracture.git
-        commit: f5f45b5fdfe82413367e86403ccfd7978120a522
+        url: https://github.com/parker-andrew-forks/fracture.git
+        commit: 34ec1d86c563375532c7efaca2475240b204e82e
       - cargo-fracture-sources.json
 
   - name: launcher-build
