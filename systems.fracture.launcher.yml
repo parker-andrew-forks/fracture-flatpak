@@ -66,7 +66,7 @@ modules:
     build-options:
       append-path: /usr/lib/sdk/rust-stable/bin
       env:
-        CARGO_HOME: /run/build/launcher-build/cargos
+        CARGO_HOME: /run/build/launcher-build/cargo
         CARGO_NET_OFFLINE: "true"
     build-commands:
       - cargo --offline fetch --manifest-path Cargo.toml --verbose
