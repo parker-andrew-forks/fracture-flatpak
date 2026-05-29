@@ -58,7 +58,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/parker-andrew-forks/fracture.git
-        commit: 2468d8dba4be20f9f1a96b343cec18d8ab9ca834
+        commit: e727b0748728758514b8bcec947018589c09f685
       - cargo-fracture-sources.json
 
   - name: launcher-build
@@ -66,7 +66,7 @@ modules:
     build-options:
       append-path: /usr/lib/sdk/rust-stable/bin
       env:
-        CARGO_HOME: /run/build/launcher-build/cargo
+        CARGO_HOME: /run/build/launcher-build/cargos
         CARGO_NET_OFFLINE: "true"
     build-commands:
       - cargo --offline fetch --manifest-path Cargo.toml --verbose
