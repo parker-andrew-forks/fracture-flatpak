@@ -58,7 +58,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/parker-andrew-forks/fracture.git
-        commit: ba160a221d6a3da3a5d94aba890d7413281e30f6
+        commit: 95d3a07c84609d4463b8d1443df7e3c9979a0bf5
       - cargo-fracture-sources.json
 
   - name: launcher-build
